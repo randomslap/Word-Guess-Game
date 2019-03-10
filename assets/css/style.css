@@ -1,0 +1,35 @@
+html {
+  background-color: black;
+  color: white;
+  font-family: "Black Ops One", cursive;
+}
+
+header {
+  background-color: black;
+  color: white;
+  font-family: "Black Ops One", cursive;
+}
+
+#statusStyle {
+  background-color: black;
+  color: white;
+  font-family: "Black Ops One", cursive;
+  text-align: center;
+}
+
+header, html, body {
+  background-image: url('https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif');
+  background-position: center;
+  background-size: cover;
+}
+
+#gameBorder {
+  color: white;
+  font-family: "Black Ops One", cursive;
+  text-align: center;
+  border: 5px;
+  border-style: solid;
+  border-color: green;
+  background-color: rgba(0,0,0,0.5);
+
+}

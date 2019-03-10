@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Black+Ops+One"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Word Guess Game</title>
+  </head>
+
+  <header>
+    <div class="container">
+      <br />
+      <div class="row justify-content-center">
+        <div>
+          <h1>Word Guess Game</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <br />
+    <div class="container" id="gameBorder">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h3>Category: Web Development</h3>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col" id="correctWord">
+          <h3>Guess the word!</h3>
+          <div id="currentWord"></div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col" id="myChar">
+
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col">
+          <h5>Lives: </h5>
+          <h3 id="displayLives"></h3>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col">
+          <div id="myWord">
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col">
+          <h5>Wins: </h5>
+          <h3 id="wins"></h3>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col">
+          <h5>Guessed Words: </h5>
+          <h3 id="guessWords"></h3>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>
